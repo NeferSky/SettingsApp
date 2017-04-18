@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:id="@+id/checkboxWifi"
+        android:defaultValue="true"
+        android:key="keyWifi"
+        android:summary="@string/strOnOff"
+        android:title="@string/chbWifiCaption" />
+    <CheckBoxPreference
+        android:id="@+id/checkboxHint"
+        android:defaultValue="true"
+        android:key="keyHint"
+        android:summary="@string/strOnOff"
+        android:title="@string/chbHintCaption" />
+    <EditTextPreference
+        android:defaultValue="14"
+        android:dialogTitle="@string/edtTextSizeDialogTitle"
+        android:key="keyTextSize"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/strTextSize"
+        android:title="@string/edtTextSize" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/text_style"
+        android:entryValues="@array/text_style"
+        android:key="keyTextStyle"
+        android:summary="@string/listTextStyle"
+        android:title="@string/text_style" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="keyGladTheCat"
+        android:summaryOff="@string/swGladTheCatOff"
+        android:summaryOn="@string/swGladTheCat"
+        android:switchTextOff="@string/No"
+        android:switchTextOn="@string/Yes"
+        android:title="@string/swGladTheCat" />
+
+</PreferenceScreen>

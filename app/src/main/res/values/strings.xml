@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SettingsApp</string>
+    <string name="chbWifiCaption">Wi-Fi</string>
+    <string name="strOnOff">Вкл./Выкл.</string>
+    <string name="chbHintCaption">Подсказки</string>
+    <string name="btnSettingsCaption">Настройки</string>
+    <string name="edtTextSize">Размер текста</string>
+    <string name="strTextSize">Устанавливает новый размер шрифта</string>
+    <string name="edtTextSizeDialogTitle">Введите размер шрифта (от 10 до 32)</string>
+    <string name="text_style">Стиль текста</string>
+    <string name="listTextStyle">Устанавливает стиль для шрифта</string>
+    <string name="swGladTheCat">Гладить кота?</string>
+    <string name="swGladTheCatOff">Вы уверены, что не будете гладить кота?</string>
+    <string name="Yes">ДА!!!</string>
+    <string name="No">нет...</string>
+    <string name="setRingtone">Установить мелодию звонка</string>
+    <string name="setRingtoneCaption">Настройка рингтонов</string>
+</resources>
